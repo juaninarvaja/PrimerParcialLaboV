@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvItemNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/user_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+            <TextView
+                android:id="@+id/tvCantidadDef"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/item_cantidad"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:padding="5dp"/>
+            <TextView
+                android:id="@+id/tvCantidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/item_cantidad"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:padding="5dp"/>
+            <TextView
+                android:id="@+id/tvPrecioDef"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/item_precio"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:padding="5dp"/>
+            <TextView
+                android:id="@+id/tvPrecio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/item_precio"
+                android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:padding="5dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

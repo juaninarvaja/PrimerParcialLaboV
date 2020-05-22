@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Primer parcial</string>
+    <string name="user_name">nombre del producto</string>
+    <string name="item_precio">Precio:</string>
+    <string name="item_cantidad">Cantidad:</string>
+    <string name ="boton_guardar">Guardar cambios</string>
+    <string name ="explicacion">Edite los campos que quiera modificar</string>
+</resources>
